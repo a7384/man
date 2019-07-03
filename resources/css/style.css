@@ -1,0 +1,130 @@
+/* ================== */
+/* BASIC */
+/* ================== */
+*{
+    margin: 0;
+    padding: 0;
+    height: auto
+}
+/* ================== */
+/* NAVIGATION */
+/* ================== */
+#main{
+    color: white
+}
+.logo{
+    height: auto;
+    width: 50px
+}
+/* ================== */
+/* HEADER */
+/* ================== */
+#particles-js{
+    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+    position: relative;
+
+}
+.hero{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.hero-text h1{
+    font-weight: 700
+}
+#button{
+    margin-top: 100px;
+    background: #008CBA;
+    color: white;
+    padding: 10px 23px;
+}
+#button:hover{
+   color: black;
+    background: white;
+    transition: all .5s;
+    font-weight: 600;
+    box-shadow: 3px 4px 5px #3DC9FC;
+}
+/* ================== */
+/* REUSEABLE COMPONANT */
+/* ================== */
+.roll{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #2929a0;
+    border-radius:10px;
+    margin: auto;
+    position:relative;
+}
+.roll::after{
+    content: "";
+    position: absolute;
+    width: 3rem;
+    height: .2rem;
+    display: block;
+    background: #E79FD2;
+    top:3px;
+    left:13px
+}
+.roll::before{
+    content: "";
+    position: absolute;
+    width: 3rem;
+    height: .2rem;
+    display: block;
+    background: #E79FD2;
+    top:3px;
+    right:13px
+}
+
+
+/* ================== */
+/* ABOUT */
+/* ================== */
+.about-secton{
+    text-align: center;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    padding-top: 45px;
+}
+.about-secton h1{
+    color: white
+}
+.about-secton h3{
+    font-size: 44px;
+    letter-spacing: 2px;
+}
+.about-secton .p_1{
+    color: white;
+    margin-top: 20px;
+}
+.about-secton .little_para1{
+    color: white
+}
+.about-secton .little_para{
+    letter-spacing: 2px;
+    font-weight: 600
+}
+.about-secton .second{
+    margin-top: 70px;
+}
+#button1{
+    margin-top: 15px;
+    background: #E91E63;
+    color: white
+}
+.about-secton s_1{
+    height: 100%;
+    width: 100%
+}
+.about-secton img{
+    height: 90%;
+    width: 100%;
+    border: 2px solid blue
+}
+.second .skill-bar{
+    height: 100%;
+    width: 100%
+}
